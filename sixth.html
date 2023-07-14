@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery-item {
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .gallery-item .caption {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="volkswagen virtus.jpg" alt="Image 1">
+      <div class="caption">virtus is a sedan which i like the most in recent times</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="skoda kodiaq.jpg" alt="Image 2">
+      <div class="caption">kodiaq is best suv with excellent features</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="skoda slavia.png" alt="Image 3">
+      <div class="caption">colour is like super</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="maruti fronx.jpg" alt="Image 4">
+      <div class="caption">budget car</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="altroz.jpg" alt="Image 5">
+      <div class="caption">safest ka baap</div>
+    </div>
+  </div>
+</body>
+</html>
