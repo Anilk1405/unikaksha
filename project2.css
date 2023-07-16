@@ -1,0 +1,114 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container_12 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Styling for the header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header img {
+    vertical-align: middle;
+  }
+  
+  .header .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  /* Styling for the main-story */
+  .main-story {
+    margin-top: 40px;
+  }
+  
+  .main-story h1 a {
+    font-size: 36px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Styling for the intro */
+  .intro {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .intro p {
+    color: #555;
+  }
+  
+  .intro .date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for more-articles */
+  .more-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .more-articles h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .more-articles .grid_3 {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .more-articles img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .more-articles a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

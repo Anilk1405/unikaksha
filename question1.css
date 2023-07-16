@@ -1,0 +1,126 @@
+
+body, h1, h2, h3, h4, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  #banner {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #banner h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #banner p {
+    color: #666;
+  }
+  
+  #services {
+    padding: 20px;
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: #666;
+  }
+  
+  #gallery {
+    padding: 20px;
+  }
+  
+  .photo {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact {
+    padding: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

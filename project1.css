@@ -1,0 +1,159 @@
+
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  header a {
+    display: inline-block;
+    background-color: #f76c6c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .right {
+    flex: 2;
+  }
+  
+  .content {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .content a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .content a:hover {
+    background-color: #444;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .left h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .left p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .left a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .left a:hover {
+    background-color: #444;
+  }
+  
+  .alert {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .alert button {
+    background-color: #f76c6c;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .promo {
+    text-align: center;
+  }
+  
+  .promo button {
+    background-color: #f76c6c;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  
+  .promo button:hover {
+    background-color: #ff9b9b;
+  }
+  
